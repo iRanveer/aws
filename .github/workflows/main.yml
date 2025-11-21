@@ -22,4 +22,5 @@ jobs:
 
       - name: Sync files to S3 bucket
         run: |
-          aws s3 sync ./public s3://aws-sehjivi --delete
+          aws s3 sync ./dist s3://aws-sehjivi --delete
+
